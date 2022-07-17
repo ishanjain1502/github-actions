@@ -1,10 +1,8 @@
-myapp:
-  service: |
-    github-actions-test
-    trying to see how these things work
-  test: script1
-  myArray:
-    - key1: val1
-      randomKey: randomVal1
-    - key2: val2
-      randomKey: randomVal2  
+name: my first github action
+on: [push]
+jobs: 
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!!!"
+      - run: echo "This is step number 2" 
