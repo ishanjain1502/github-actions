@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
+[![my first github action](https://github.com/ishanjain1502/github-actions/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/ishanjain1502/github-actions/actions/workflows/test.yaml)<br/>
 First, run the development server:
 
 ```bash
