@@ -1,3 +1,10 @@
-lksjdlakjd 
-lkslskajd
-lakskdasdlk 
+myapp:
+  service: |
+    github-actions-test
+    trying to see how these things work
+  test: script1
+  myArray:
+    - key1: val1
+      randomKey: randomVal1
+    - key2: val2
+      randomKey: randomVal2  
