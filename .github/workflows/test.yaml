@@ -8,9 +8,14 @@ jobs:
       - uses: actions/setup-node@v2
         with: 
           node-version: '14.17.0'
-      - name : Intalling node_modules
-        run : yarn
-      - name : building project
-        run : yarn build
-      - name : Setup finish
-        run : echo "hurray"  
+      - name: Intalling node_modules
+        run: yarn
+      - name: building project
+        run: yarn build
+      - name: deploying project
+        env:
+          VERCEL_ORG_ID: ThdRup3qgnyK8953jnvPCfSo
+          VEREL_PROJECT_ID: prj_aar3CNsWGIOgxMZrOVw2OUvo8v32 
+        run: yarn deploy        
+      - name: Setup finish
+        run: echo "hurray"  
